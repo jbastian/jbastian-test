@@ -1,0 +1,4 @@
+A sanity check to see if restraint can use a remote git repo
+for repoRequires task dependencies.
+
+https://restraint.readthedocs.io/en/latest/tasks.html#reporequires

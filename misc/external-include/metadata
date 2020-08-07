@@ -1,0 +1,12 @@
+[General]
+name=/kernel/misc/external-include
+owner=Jeffrey Bastian <jbastian@redhat.com>
+description=Test if restraint repoRequires can fetch from a different git repo
+license=GPLv2
+confidential=no
+destructive=no
+
+[restraint]
+entry_point=./runtest.sh
+max_time=10m
+repoRequires=https://github.com/jbastian/jbastian-test-include/archive/master.zip#include
